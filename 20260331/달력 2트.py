@@ -14,6 +14,7 @@ else:
     num = 31
 
 count += empty[month-1]
+print("   "*empty[month-1], end= '')
 for i in range(1, num):
         if(i//10 == 0):
             if count % 7 != 0:
