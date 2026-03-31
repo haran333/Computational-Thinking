@@ -1,6 +1,6 @@
 month = int(input())
-th_one = [1, 3, 5, 7, 8, 10, 12]
-empty = [4, 0, 0, 3, 5, 1, 3, 6, 2, 4, 0, 2]
+month_31 = [1, 3, 5, 7, 8, 10, 12]
+empty = [4, 0, 0, 3, 5, 1, 3, 6, 2, 4, 0, 2] # 달력 앞 공백 칸 수
 count = 1
 
 print('\t',month,'월',sep='')
@@ -8,7 +8,7 @@ print('일 월 화 수 목 금 토')
 
 if month == "2":
     num = 29
-elif (int(month) in th_one):
+elif (int(month) in month_31):
     num = 32
 else:
     num = 31
