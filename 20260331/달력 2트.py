@@ -16,14 +16,8 @@ else:
 count += empty[month-1]
 print("   "*empty[month-1], end= '')
 for i in range(1, num):
-        if(i//10 == 0):
-            if count % 7 != 0:
-                print(f" {i}", end=' ')
-            else:
-                print(f" {i}")
-        else:
-            if count % 7 != 0:
-                print(i, end=' ')
-            else:
-                print(i)
-        count += 1
+    if count % 7 != 0:
+        print(f"{i:>2}", end=' ')
+    else:
+        print(f"{i:>2}")
+    count += 1
