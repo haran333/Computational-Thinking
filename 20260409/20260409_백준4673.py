@@ -1,3 +1,6 @@
+def summ():
+
+
 nonself = set()
 
 for num in range(1, 10001):
