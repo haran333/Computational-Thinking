@@ -1,10 +1,10 @@
 N = int(input())
-num = []
+N = []
 
 for i in range(N):
-    num.append(int(input()))
-num = list(set(num))
-num.sort()
+    N.append(int(input()))
+N = list(set(N))
+N.sort()
 
-for j in range(len(num)):
-    print(num[j])
+for j in range(len(N)):
+    print(N[j])

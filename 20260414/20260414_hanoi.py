@@ -7,6 +7,6 @@ def hanoi(N, start, mid, end):
         hanoi(N-1, mid, start, end) # N-1번 원반을 다시 목적지로
 
 if __name__ == '__main__':
-    num = int(input())
-    hanoi(num, "A", "B", "C")
-    print(2**(num)-1)
+    N = int(input())
+    hanoi(N, "A", "B", "C")
+    print(2**(N)-1)

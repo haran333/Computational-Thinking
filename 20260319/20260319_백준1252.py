@@ -1,2 +1,2 @@
-num1, num2 = input().split()
-print(bin(int(num1, 2)+int(num2, 2))[2:])
+N1, N2 = input().split()
+print(bin(int(N1, 2)+int(N2, 2))[2:])

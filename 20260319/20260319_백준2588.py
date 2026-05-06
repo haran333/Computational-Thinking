@@ -1,7 +1,7 @@
-num1 = int(input())
-num2 = input()
+N1 = int(input())
+N2 = input()
 
-print(num1*int(num2[2]))
-print(num1*int(num2[1]))
-print(num1*int(num2[0]))
-print(num1*int(num2))
+print(N1*int(N2[2]))
+print(N1*int(N2[1]))
+print(N1*int(N2[0]))
+print(N1*int(N2))

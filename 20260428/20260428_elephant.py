@@ -20,7 +20,7 @@ class Elephant(Animal):
 
 my_dog = Dog(name="Buddy")
 my_cat = Cat(name="Whiskers")
-my_elephant = Elephant(name="geonhu")
+my_elephant = Elephant(name="Geonhu")
 
 print(my_dog.speak())
 print(my_cat.speak())

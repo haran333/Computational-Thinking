@@ -5,8 +5,8 @@ list_day  = {1:"월요일", 2:"화요일", 3: "수요일", 4: "목요일", 5: "�
 
 for a, b in list_day.items():
     if(str_day == b):
-        num_day = a
-        if(since%num_day==0):
+        N_day = a
+        if(since%N_day==0):
             print(list_day[7])
         else:
-            print(list_day[(since%num_day)])
+            print(list_day[(since%N_day)])

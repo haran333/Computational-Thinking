@@ -1,4 +1,4 @@
 a = [1, 2, 3, 4]
-result = [num*3 for num in a]
+result = [N*3 for N in a]
 
 print(result)

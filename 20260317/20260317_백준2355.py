@@ -1,5 +1,5 @@
-num1, num2 = map(int,input().split())
-num1, num2 = min(num1, num2), max(num1, num2)
-sum = (num2*(num2+1))//2 - (num1*(num1+1))//2
+N1, N2 = map(int,input().split())
+N1, N2 = min(N1, N2), max(N1, N2)
+sum = (N2*(N2+1))//2 - (N1*(N1+1))//2
 
-print(sum+num1)
+print(sum+N1)

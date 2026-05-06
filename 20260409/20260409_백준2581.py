@@ -9,14 +9,14 @@ def prime(n):
 
 M = int(input())
 N = int(input())
-num_list = []
+N_list = []
 
 for j in range(M, N+1):
     if prime(j):
-        num_list.append(j)
+        N_list.append(j)
 
-if(len(num_list) == 0):
+if(len(N_list) == 0):
     print(-1)
 else:
-    print(sum(num_list))
-    print(min(num_list))
+    print(sum(N_list))
+    print(min(N_list))

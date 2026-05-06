@@ -1,8 +1,8 @@
-num = []
+N = []
 
 for i in range(9):
-    num.append(int(input()))
+    N.append(int(input()))
 
-k = max(num)
+k = max(N)
 print(k)
-print(num.index(k)+1)
+print(N.index(k)+1)

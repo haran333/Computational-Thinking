@@ -5,11 +5,11 @@ for i in range(9):
 def board_33(board, row, col):
     board33 = []
     g, s = 0, 0
-    for i, sublist in enumerate(tfa):
+    for i, sublist in eNerate(tfa):
         if row in sublist:
             g = i
             break
-    for i, sublist in enumerate(tfa):
+    for i, sublist in eNerate(tfa):
         if col in sublist:
             s = i
             break
@@ -18,17 +18,17 @@ def board_33(board, row, col):
             board33.append(board[i][j])
     return board33
 
-def is_valid(board,row,col,num):
-    if num < 1 or num > 9:
+def is_valid(board,row,col,N):
+    if N < 1 or N > 9:
         return False
     board33 = board_33(board, row, col)
     garo = board[row]
     sero = []
     for i in range(0, 9):
         sero.append(board[i][col])
-    if num not in garo:
-        if num not in sero:
-            if num not in board33:
+    if N not in garo:
+        if N not in sero:
+            if N not in board33:
                 return True
             else:
                 return False
@@ -41,9 +41,9 @@ def solve_sudoku(board):
     for i in range(0, 9):
         for j in range(0, 9):
             if board[i][j] == 0:
-                for num in range(1, 10):
-                    if is_valid(board, i, j, num):
-                        board[i][j] = num
+                for N in range(1, 10):
+                    if is_valid(board, i, j, N):
+                        board[i][j] = N
                         if solve_sudoku(board):
                             return True
                     board[i][j] = 0

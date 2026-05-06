@@ -1,7 +1,7 @@
-num1, num2 = map(int, input().split())
-if(num1>num2):
+N1, N2 = map(int, input().split())
+if(N1>N2):
     print(">")
-elif(num1<num2):
+elif(N1<N2):
     print("<")
 else:
     print("==")

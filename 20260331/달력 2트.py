@@ -7,15 +7,15 @@ print('\t',month,'월',sep='')
 print('일 월 화 수 목 금 토')
 
 if month == "2":
-    num = 29
+    N = 29
 elif (int(month) in month_31):
-    num = 32
+    N = 32
 else:
-    num = 31
+    N = 31
 
 count += empty[month-1]
 print("   "*empty[month-1], end= '')
-for i in range(1, num):
+for i in range(1, N):
     if count % 7 != 0:
         print(f"{i:>2}", end=' ')
     else:

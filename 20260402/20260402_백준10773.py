@@ -1,4 +1,4 @@
-nonself = set([num i//10000 + i//1000 + i//100 + i//10 + i%10 + i for i in range(1, 10001)])
+nonself = set([N i//10000 + i//1000 + i//100 + i//10 + i%10 + i for i in range(1, 10001)])
 
 for j in range(1, 10000):
     if j not in nonself:

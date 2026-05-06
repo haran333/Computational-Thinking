@@ -3,8 +3,8 @@ def summ():
 
 nonself = set()
 
-for num in range(1, 10001):
-    temp = sum(map(int, str(num))) + num
+for N in range(1, 10001):
+    temp = sum(map(int, str(N))) + N
     nonself.add(temp)
 
 for j in range(1, 10001):

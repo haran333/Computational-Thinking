@@ -1,2 +1,2 @@
-num = int(input(''), 2)
-print(oct(num)[2:])
+N = int(input(''), 2)
+print(oct(N)[2:])
