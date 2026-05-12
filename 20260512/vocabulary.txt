@@ -1,0 +1,12 @@
+1 enviroment 환경
+16 present "현재, 출석한, 제출하다"
+2 company 회사
+17 draw 그리다, 뽑다
+3 government "정부, 정치"
+18 lose "잃어버리다, 지다"
+4 face 얼굴
+19 provide 제공(공급)하다.
+5 race "경주, 인종"
+20 allow 허락하다
+6 plant "식물, 식물을 심다"
+21 consider "생각하다, 고려하다"
